@@ -7,6 +7,13 @@ export default defineConfig({
   css: {
     postcss,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: '[name].[ext]',
+      },
+    },
+  },
   plugins: [svelte({
     /* plugin options */
   })]
