@@ -4,7 +4,7 @@
 
 <main
   class="m-0 h-screen bg-gray-100
-bg-[url('images/bg.jpg')] bg-center bg-cover"
+bg-[url('images/bg.jpg')] bg-center bg-cover flex"
 >
   <SideBar />
   <div class="w-full h-screen p-20">
